@@ -1,0 +1,41 @@
+.contact-title {
+  text-align: center;
+}
+
+.contact-button-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-button {
+  padding: 5px 15px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+
+.contact-button:hover {
+  background-color: rgba(1, 1, 1, 0.8);
+}
+
+.contact_name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact_phone {
+  font-weight: 400;
+  font-size: 17px;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+}
+
+.contact_delete-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
